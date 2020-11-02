@@ -1,0 +1,8 @@
+#html {
+    background-color: bisque;
+}
+
+#greyCanvas {
+    /*transform: scale(10%) translateX(-50%) translateY(-50%);*/
+    width: 200px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Scouter</title>
+</head>
+
+
+<body>
+    <h1>hello this is a scouting application</h1>
+
+    <div>
+        <input type="file" id="formImageInput" name="formImage" accept="image/png, image/jpeg" autocomplete="off">
+    </div>
+    <div>
+        <button id="processButton">Process</button>
+    </div>
+    <div>
+        <input type="range" min="0" max="255" value="127" step="50" id="thresholdSlider" autocomplete="off">
+    </div>
+    <div>
+        <img id="imageUploadPreview" hidden>
+    </div>
+    <div>
+        <canvas id="greyCanvas"></canvas>
+    </div>
+    <div>
+        <canvas id="debugCanvas" width="1000" height="1000"></canvas>
+    </div>
+
+    <canvas id="previewCanvas" hidden></canvas>
+
+    
+    <script src="index.js"></script>
+</body>
